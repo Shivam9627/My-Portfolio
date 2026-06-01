@@ -1,6 +1,7 @@
  import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import leetcodeLogo from "../../assets/work_logo/leetcode.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,7 +70,7 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex items-center gap-4">
           <a
             href="https://github.com/Shivam9627"
             target="_blank"
@@ -85,6 +86,18 @@ const Navbar = () => {
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://leetcode.com/u/Shivam_Chamoli/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-[#8245ec]"
+          >
+            <img
+              src={leetcodeLogo}
+              alt="LeetCode"
+              className="h-6 w-6"
+            />
           </a>
         </div>
 
@@ -136,6 +149,18 @@ const Navbar = () => {
                 className="text-gray-300 hover:text-white"
               >
                 <FaLinkedin size={24} />
+              </a>
+              <a
+                href="https://leetcode.com/u/Shivam_Chamoli/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
+                <img
+                  src={leetcodeLogo}
+                  alt="LeetCode"
+                  className="h-6 w-6"
+                />
               </a>
             </div>
           </ul>

@@ -33,16 +33,18 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 
-
 // Education Section Logo's
 import sdsuvLogo from "./assets/education_logo/sdsuv.jpg";
 import atalLogo from "./assets/education_logo/atal.png";
 import dpsLogo from "./assets/education_logo/dps.jpg";
 
 // Project Section Logo's
-import studyLogo from "./assets/work_logo/study.png";
-import ecommerceLogo from "./assets/work_logo/ecommerce.png";
-import jobPortalLogo from "./assets/work_logo/job.png";
+import studyLogo from "./assets/work_logo/study-mantra-new.png";
+import jobHubLogo from "./assets/work_logo/jobhub-new.png";
+import askKrishnaLogo from "./assets/work_logo/ask-krishna-new.png";
+import fitnessLogo from "./assets/work_logo/fitness-tracker-new.png";
+import novaLogo from "./assets/work_logo/nova-nector-new.png";
+import travelLogo from "./assets/work_logo/travel-website-new.png";
 
 export const SkillsInfo = [
   {
@@ -53,19 +55,15 @@ export const SkillsInfo = [
       { name: "SASS", logo: sassLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
-      // { name: 'Angular', logo: angularLogo },
       { name: "Redux", logo: reduxLogo },
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
-      // { name: 'GSAP', logo: gsapLogo },
       { name: "Material UI", logo: materialuiLogo },
-      // { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: "Backend",
     skills: [
-      // { name: 'Springboot', logo: springbootLogo },
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
@@ -79,11 +77,8 @@ export const SkillsInfo = [
     skills: [
       { name: "C", logo: cLogo },
       { name: "C++", logo: cppLogo },
-      // { name: 'Java', logo: javaLogo },
       { name: "Python", logo: pythonLogo },
-      // { name: 'C-Sharp', logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -100,7 +95,6 @@ export const SkillsInfo = [
     ],
   },
 ];
-
 
 export const education = [
   {
@@ -135,60 +129,62 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "JobHub FullStack Job Portal",
+    description:
+      "JobHub is a full-stack job portal that connects candidates and recruiters with secure login, advanced job search, resume uploads, job posting, and application tracking. It features role-based access, smart filters, and a polished responsive interface.",
+    image: jobHubLogo,
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB", "JWT", "HTML", "CSS"],
+    github: "https://github.com/Shivam9627/JobHub-FullStack-JobPortal",
+    webapp: "https://job-hub-full-stack-job-portal-front.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Study Mantra",
     description:
-      "Study Mantra is a full-stack MERN web application designed to help college students access, upload, and share academic study materials such as notes, previous year papers, and AI-generated answers. The platform integrates secure authentication, real-time AI chat assistance, and a scalable document management system.",
+      "Study Mantra is a full-stack MERN platform for college students to access notes, previous year papers, and AI-assisted study content in one place. The app supports secure user authentication, resource uploads, and responsive document browsing.",
     image: studyLogo,
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "Node JS",
-      "Mongo DB",
-      "Express JS",
-      "API",
-    ],
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "MongoDB", "Express JS"],
     github: "https://github.com/Shivam9627/study-mantra",
     webapp: "https://study-mantra-frontend.vercel.app/",
   },
   {
-    id: 1,
-    title: "E-Commerce Fullstack App",
+    id: 2,
+    title: "Ask Krishna Fullstack",
     description:
-      "E-COMMERCE-FULLSTACK is a complete MERN-stack shopping platform designed with a real-world architecture. Users can browse products, add items to the cart, place orders, and manage their profiles. The admin panel allows product creation, order tracking, and inventory updates. The system is powered by secure REST APIs, JWT auth, MongoDB models, and Cloudinary image storage, with a clean, responsive React UI.",
-    image: ecommerceLogo,
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "Node JS",
-      "Mongo DB",
-      "Express JS",
-      "API",
-    ],
-    github: "https://github.com/Shivam9627/mern-ecommerce",
-    webapp: "https://mern-ecommerce-frontend-six-psi.vercel.app/",
+      "Ask Krishna is a knowledge-sharing portal where users can ask questions, browse answers, and interact with content through a smooth modern UI. The app includes authenticated posting and responsive layouts for learning on any device.",
+    image: askKrishnaLogo,
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB", "JavaScript", "Responsive"],
+    github: "https://github.com/Shivam9627/Ask_Krishna_Fullstack",
+    webapp: "https://ask-krishna-frontend.vercel.app/",
   },
   {
-    id: 2,
-    title: "Job Portal App",
+    id: 3,
+    title: "Fitness Tracker",
     description:
-      "A full-stack job portal web application that connects job seekers with recruiters. Users can create profiles, upload resumes, search and apply for jobs, while employers can post job listings and manage applications. The platform features secure authentication, role-based access, and a clean, user-friendly interface for a smooth hiring experience.",
-    image: jobPortalLogo,
-    tags: [
-      "React JS",
-      "Next JS",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    github: "https://github.com/Shivam9627/Job-Portal-Shivam",
-    webapp: "https://job-portal-shivam.vercel.app/",
+      "Fitness Tracker is a wellness dashboard for tracking workouts, progress, and routine planning. It offers a sleek dashboard, motivational UI, and clean fitness summaries that adapt beautifully to mobile and desktop screens.",
+    image: fitnessLogo,
+    tags: ["React JS", "JavaScript", "CSS", "Responsive", "UI"],
+    github: "https://github.com/Shivam9627/Fitness-Tracker",
+    webapp: "https://fitness-tracker-frontend-chi-seven.vercel.app/",
   },
-
+  {
+    id: 4,
+    title: "NovaNector Weather App",
+    description:
+      "NovaNector is a weather dashboard delivering fast forecasts with city search, live condition cards, and weather-themed visuals. The interface is designed for clarity, speed, and responsive display on all screen sizes.",
+    image: novaLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Weather API", "Responsive"],
+    github: "https://github.com/Shivam9627/NovaNector_Weather_App",
+    webapp: "https://nova-nector-weather-app-frontend.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Travel Website",
+    description:
+      "Travel Website is a destination landing page with vivid travel visuals, itinerary highlights, and a modern layout designed to inspire exploration. It is built for fast loading and seamless navigation across desktop and mobile.",
+    image: travelLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Responsive", "Landing Page"],
+    github: "https://github.com/Shivam9627/Travel-Website",
+    webapp: "https://github.com/Shivam9627/Travel-Website",
+  },
 ];
