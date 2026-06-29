@@ -157,16 +157,16 @@ export const projects = [
     github: "https://github.com/Shivam9627/Ask_Krishna_Fullstack",
     webapp: "https://ask-krishna-frontend.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Fitness Tracker",
-    description:
-      "Fitness Tracker is a wellness dashboard for tracking workouts, progress, and routine planning. It offers a sleek dashboard, motivational UI, and clean fitness summaries that adapt beautifully to mobile and desktop screens.",
-    image: fitnessLogo,
-    tags: ["React JS", "JavaScript", "CSS", "Responsive", "UI"],
-    github: "https://github.com/Shivam9627/Fitness-Tracker",
-    webapp: "https://fitness-tracker-frontend-chi-seven.vercel.app/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Fitness Tracker",
+  //   description:
+  //     "Fitness Tracker is a wellness dashboard for tracking workouts, progress, and routine planning. It offers a sleek dashboard, motivational UI, and clean fitness summaries that adapt beautifully to mobile and desktop screens.",
+  //   image: fitnessLogo,
+  //   tags: ["React JS", "JavaScript", "CSS", "Responsive", "UI"],
+  //   github: "https://github.com/Shivam9627/Fitness-Tracker",
+  //   webapp: "https://fitness-tracker-frontend-chi-seven.vercel.app/",
+  // },
   {
     id: 4,
     title: "NovaNector Weather App",
